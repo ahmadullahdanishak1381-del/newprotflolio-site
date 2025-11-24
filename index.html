@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquries.css">
+</head>
+
+<body>
+    <div class="theme-buttons">
+        <button onclick="setLight()">Light</button>
+        <button onclick="setDark()">Dark</button>
+    </div>
+    <nav id="desktop-nav">
+        <div class="logo">Ahmadullah Danish</div>
+
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Aahmadullah Danish</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./work/21293.jpg" alt="Ahmadullah Danish profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Ahmadullah Danish</h1>
+            <P class="section__text__p2">Frontend Developer</P>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./ahmad cv.pdf')">
+                 Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact Info
+               </button>
+            </div>
+            <div id="socials-container">
+                <img src="./work/linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href='https://linkedin.com/'" />
+                <img src="./work/github.png" alt="My github profile" class="icon" onclick="location.href='https://github.com/'" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <P class="section__text__p1">Get To Know More</P>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./work/12.jpg" alt="profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./work/experience.png" alt="experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>2+ years<br/>Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./work/education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelors Degree<br/>M.Sc. Masters Degree</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p><strong>
+                     Hello,my name is Ahmadullah,and my last name is Danish.My original rasidence 
+                     is parwan, and i was born in the year 1381 (2002). currently, i live in baghlan
+                     province, where i am continuing my studies. i am studying in the faculty of computer
+                     science, in the web Design department. Alongside this field, i am also working to
+                     improve my English. i look forward to more projects in the future.
+                     </strong>
+                     </p>
+                </div>
+            </div>
+        </div>
+        <img src="./work/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='#experience'" />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explor My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./work/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./work/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./work/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>SASS</h3>
+                                <P>intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./work/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>javascript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./work/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Typescript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./work/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./work/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>PostgreSQL</h3>
+                                <P>Basic</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./work/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./work/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Express JS</h3>
+                                <P>intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./work/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Git</h3>
+                                <p>intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./work/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='#projects'" />
+    </section>
+    <section id="projects">
+        <P class="section__text__p1">Browse My Recent</P>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./work/images.jpg" alt="project-1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">project one</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        Github
+                    </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                       Live Demo
+                    </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./work/download (2).jpg" alt="project-2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">project two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        Github
+                    </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                       Live Demo
+                    </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./work/download.jpg" alt="project-3" class="project-img" />
+                    </div>
+                    <h2 class="Experience-sub-title project-title">project three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        Github
+                    </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                       Live Demo
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./work/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='#contact'" />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./work/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="suliamanshirzy632@gmail.com">ahmadullahdanishak1381@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./work/linkedin.png" alt="linkedin icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com">linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <p><strong> &#169; 2025 Ahmadullah Danish. All Rights Reserved.</strong></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
